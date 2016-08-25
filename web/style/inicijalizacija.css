@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    font-family: 'Monda', 'Arial', sans-serif;
+    font-size: 15px;
+}
+
+body{
+	background: #cfcfcf;
+}
+
+.badi:after{
+	content: "";
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 3;
+	background: rgba(0,0,0,0.8);
+}
+
+ul{
+	list-style-type: none;
+}
+
+li{
+	float: left;
+}
+
+li ul{
+	opacity: 0;
+	visibility: hidden;
+	position: absolute;
+}
+
+a, a:link, a:visited, a:hover, a:active{
+	text-decoration: none;
+	color: black;
+}
+
+li a{
+	display: block;
+}

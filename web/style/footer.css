@@ -1,0 +1,82 @@
+.footer-main{
+	background: #006c85;
+	padding: 15px 0;
+	color: white;
+}
+
+.footer-main div{
+	position: relative;
+}
+
+.footer-main .row{
+	margin-top: 45px;
+}
+
+.footer-main nav *{
+	float: left;
+}
+
+.footer-main h2{
+	width: 100%;
+	font-size: 1.3em;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+
+.footer-main a{
+	text-decoration: underline;
+	display: block;
+	padding: 0;
+	color: white;
+}
+
+.footer-main li{
+	width: 100%;
+	display: block;
+	padding: 0;
+}
+
+.prim-foot-nav a{
+	margin: -20px 0;
+	color: #E68D00;
+}
+
+.prim-foot-nav a:nth-child(2) i{
+	font-size: 4.8em;
+}
+.prim-foot-nav a:nth-child(3) i{
+	font-size: 5em;
+	margin-top: -2px;
+}
+.prim-foot-nav a:nth-child(4) i{
+	font-size: 5.7em;
+	margin-top: -10px;
+}
+.prim-foot-nav a:nth-child(5) i{
+	font-size: 4.2em;
+	margin-top: 8px;
+}
+
+.footer-main h4{
+	font-weight: normal;
+	text-align: left;
+	font-size: 1em;
+}
+
+.footer-main .drelica{
+	position: absolute;
+	background: #0092c2;
+	border-radius: 50px;
+	padding: 0 10px 10px 10px;
+	color: white;
+	right: 15px;
+	top: -100px;
+}
+
+.footer-main .drelica i{
+	font-size: 3em;
+}
+
+.footer-main .drelica:hover{
+	background: #006c85;
+}

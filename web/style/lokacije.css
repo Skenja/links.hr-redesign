@@ -1,0 +1,62 @@
+.main-lokacije{
+	padding: 30px 0;
+}
+
+.lokacija{
+	background: #006c85;
+	color: white;
+	margin: 30px 0;
+}
+
+.lokacija:hover{
+	background: #efefef;
+	transition: 500ms;
+	color: black;
+}
+
+.lokacija{
+	position: relative;
+	padding-left: 370px;
+	min-height: 370px;
+}
+
+.lokacija:hover .lijevo p{
+	color: #3f3f3f;
+}
+
+.lokacija h1{
+	font-size: 1.5em;
+	margin: 15px 0 10px 15px;
+}
+
+.poslovnica h2, .servis h2{
+	font-size: 1.2em;
+	margin-bottom: 5px;
+}
+
+.lokacija .container{
+	width: 370px;
+	float: left;
+}
+
+.lokacija .lijevo, .lokacija .desno{
+	width: 170px;
+	float: left;
+}
+
+.lokacija .lijevo p{
+	color: #bfbfbf;
+}
+
+iframe{
+	display: none;
+	opacity: 0;
+	position: absolute;
+	left: 0;
+}
+
+.lokacija:hover iframe{
+	display: block;
+	opacity: 1;
+}
+

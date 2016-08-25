@@ -1,0 +1,46 @@
+/* --------------------------------------------- \\
+// Ovdje ima zmajeva. Bolje da ne dirate ništa.  \\
+// --------------------------------------------- */
+
+/* Clearfix metoda za čišćenje floatanih elemenata */
+.row:before, 
+.row:after, 
+.column:before, 
+.column:after, 
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.row:after, 
+.column:after, 
+.cf:after {
+    clear: both;
+}
+
+/* Širina kolumne */
+.column-1 { width: 70px; }
+.column-2 { width: 170px; }
+.column-3 { width: 270px; }
+.column-4 { width: 370px; }
+.column-5 { width: 470px; }
+.column-6 { width: 570px; }
+.column-7 { width: 670px; }
+.column-8 { width: 770px; }
+.column-9 { width: 870px; }
+.column-10 { width: 970px; }
+.column-11 { width: 1070px; }
+.column-12 { width: 1170px; }
+
+/* Temeljna klasa kolumne */
+.column {
+	margin: 0 15px;
+    float: left;
+}
+
+/* Redak */
+.row {
+	width: 1200px;
+	margin: 0 auto;
+}

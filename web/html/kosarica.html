@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>
+        Links.hr
+    </title>
+    
+    <link rel="shortcut icon" href="../img/favicon.ico">
+
+    <link rel="stylesheet" href="../style/grid.css">
+    <link rel="stylesheet" href="../style/inicijalizacija.css">
+    <link rel="stylesheet" href="../style/header.css">
+    <link rel="stylesheet" href="../style/footer.css">
+    <link rel="stylesheet" href="ikone/css/ikone.css">
+    <link href='https://fonts.googleapis.com/css?family=Monda:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="../style/racunala.css">
+    <link rel="stylesheet" href="../style/lokacije.css">
+    <link rel="stylesheet" href="../style/landing.css">
+    <link rel="stylesheet" href="../style/kosarica.css">
+    <link rel="stylesheet" href="../style/dostava.css">
+    <link rel="stylesheet" href="../style/placanje.css">
+</head>
+
+<body>
+    <header class="header-main">
+        <div>
+            <div class="row">
+                <nav class="nav-terc column column-2">
+                    <ul>
+                        <li><a href="#">O nama</a></li>
+                        <li><a href="#">Vijesti</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <div>
+            <div class="row">
+                <nav class="nav-sec">
+                    <a href="index.html" class="column column-3"><img src="../img/logo.svg" class="logo-main"></a>
+                    <div class="column column-7">
+                        <input type="search" placeholder="Pretraživanje" class="search-bar">
+                        <input type="submit" class="search-button" value="" id="sb">
+                        <i for="sb" class="icon-search"></i>
+                    </div>
+                    <a href="kosarica.html">
+                        <div class="kos column column-2">
+                            <i class="icon-cart"></i>
+                            <p class="kos-cijena">400,00 kn</p>
+                        </div>
+                    </a>
+                </nav>
+            </div>
+        </div>
+
+        <div>
+            <div class="row">
+                <nav class="nav-prim column column-12">
+                    <ul>
+                        <li onmouseover="document.body.className='badi';" onmouseout="document.body.className='';">
+                            <a href="#">Ponuda <i class="icon-down"></i></a>
+                            <ul>
+                                <li>
+                                    <a href="#">Računala <i class="icon-right"></i></a>
+                                    <ul>
+                                        <li><a href="#">Prijenosna računala</a></li>
+                                        <li><a href="#">Stolna računala</a></li>
+                                        <li>
+                                            <a href="#">Komponente <i class="icon-right"></i></a>
+                                            <ul>
+                                                <li><a href="#">Procesori</a></li>
+                                                <li><a href="#">Grafičke kartice</a></li>
+                                                <li><a href="#">Matične ploče</a></li>
+                                                <li><a href="#">Radna memorija</a></li>
+                                                <li><a href="#">HDD i SSD</a></li>
+                                                <li><a href="#">Napajanja</a></li>
+                                                <li><a href="#">Kučišta</a></li>
+                                                <li><a href="#">Optički pogoni</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#">Periferija <i class="icon-right"></i></a>
+                                            <ul>
+                                                <li><a href="#">Monitori i projektori</a></li>
+                                                <li><a href="#">USB stick</a></li>
+                                                <li><a href="#">Web kamere</a></li>
+                                                <li><a href="#">Miševi</a></li>
+                                                <li><a href="#">Tipkovnice</a></li>
+                                                <li><a href="#">Slušalice</a></li>
+                                                <li><a href="#">Printeri i toneri</a></li>
+                                                <li><a href="#">Mediji</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Softver</a></li>
+                                    </ul>
+                                </li>                                    
+                                <li>
+                                    <a href="#">Mrežna oprema <i class="icon-right"></i></a>
+                                    <ul>
+                                        <li><a href="#">Ruteri</a></li>
+                                        <li><a href="#">Switchevi</a></li>
+                                        <li><a href="#">Access pointovi</a></li>
+                                        <li><a href="#">WiFi pojačivaći</a></li>
+                                        <li><a href="#">Mrežne kamere</a></li>
+                                        <li><a href="#">Mrežni kablovi</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Oprema <i class="icon-right"></i></a>
+                                    <ul>
+                                        <li><a href="#">Torbe i ruksaci</a></li>
+                                        <li><a href="#">Punjači i baterije</a></li>
+                                        <li><a href="#">Oprema za čišćenje</a></li>
+                                        <li><a href="#">Modding oprema</a></li>
+                                        <li><a href="#">Kabeli i adapteri</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Links @ Home</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Akcije</a></li>
+                        <li><a href="lokacije.html">Poslovnice</a></li>
+                        <li><a href="#">Moj račun</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="nav-bread">
+        <div class="row">
+            <nav class="column column-12">
+                <ul>
+                    <li><a href="#">Početna <i class="icon-right"></i></a></li>
+                    <li><a href="#">Moj račun <i class="icon-right"></i></a></li>
+                    <li><a href="#">Košarica</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <main class="kosarica-main">
+        <input type="checkbox" id="chk_not1">
+
+        <div class="kos-naslov">
+            <div class="row">
+                <h1 class="column column-4"><a href="kosarica.html">1. Košarica</a></h1>
+                <h1 class="column column-4"><a href="dostava.html">2. Dostava</a></h1>
+                <h1 class="column column-4"><a href="placanje.html">3. Plaćanje</a></h1>
+            </div>
+        </div>
+        
+        <div class="obavjest">
+            <p class="column column-12">Na ovoj stranici potvrđujete isključivo svoj odabir proizvoda i njihove količine. Na sljedećoj stranici odabirete opcije dostave i preuzimanja, te potvrđujete krajnji iznos računa. Uvijek ostavljamo mogučnost povratka na prethodni korak ako se predomislite. </p>
+            <label for="chk_not1"><i class="icon-cancel"></i></label>
+        </div>
+
+        <div class="row">
+            <section class="tablica column column-12">
+                <article>
+                    <img src="../img/lap1.png">
+                    <h3>323.422.675</h3>
+                    <h1><a href="#">Acer Aspire ES1-520 <i class="icon-right"></i></a></h1>
+                    <h2>2,499.00 kn</h2>
+                    <p>*PDV 25% uračunat</p>
+                </article>
+                <aside>
+                    <label for="num">Količina:</label>
+                    <input type="number" value="3" id="num">
+                    <input type="button" value="Ukloni">
+                </aside>
+                <details>
+                    <p>7,497.00 kn</p>
+                </details>
+            </section>
+        </div>
+
+        <div class="row">
+            <section class="tablica column column-12">
+                <article>
+                    <img src="../img/lap3.png">
+                    <h3>323.422.674</h3>
+                    <h1><a href="#">Acer Aspire ES3-520 <i class="icon-right"></i></a></h1>
+                    <h2>2,299.00 kn</h2>
+                    <p>*PDV 25% uračunat</p>
+                </article>
+                <aside>
+                    <label for="num">Količina:</label>
+                    <input type="number" value="1" id="num">
+                    <input type="button" value="Ukloni">
+                </aside>
+                <details>
+                    <p>2,299.00 kn</p>
+                </details>
+            </section>
+        </div>
+
+        <div class="row">
+            <section class="tablica column column-12">
+                <article>
+                    <img src="../img/lap5.png">
+                    <h3>323.422.679</h3>
+                    <h1><a href="#">Acer Aspire ES1-521 <i class="icon-right"></i></a></h1>
+                    <h2>4,499.00 kn</h2>
+                    <p>*PDV 25% uračunat</p>
+                </article>
+                <aside>
+                    <label for="num">Količina:</label>
+                    <input type="number" value="1" id="num">
+                    <input type="button" value="Ukloni">
+                </aside>
+                <details>
+                    <p>4,499.00 kn</p>
+                </details>
+            </section>
+        </div>
+
+        <div class="kos-suma">
+            <div class="row">
+                <section class="sumasumarum column column-12">
+                    <details>
+                        <h1>Sveukupna cijena proizvoda:</h1>
+                        <p>14,295.00 kn</p>
+                    </details>
+                </section>
+            </div>
+            <div class="row">
+                <input type="button" value="Nastavi s kupovinom >">
+            </div>
+        </div>
+
+        <div class="disclaimer">
+            <div class="row">
+                <p>*sve slike su objavljene u dobroj namjeri i ne garantiraju izgled proizvoda. Sve cijene su izražene u Hrvatskim kunama, sa uključenim PDV-om od 25%. Svi podaci objavljeni na našem webu su točni i precizni u trenutku objave, te zadržavamo pravo promjene svega od navedenog bez prethodne obavjesti.</p>
+            </div>
+        </div>
+        
+    </main>
+
+        <footer class="footer-main">
+        <div class="row">
+            <nav class="prim-foot-nav column column-5">
+                <h2 class="subscribe">Primajte naše obvijesti!</h2>
+                <a href="#"><i class="icon-mail"></i></a>
+                <a href="#"><i class="icon-fb"></i></a>
+                <a href="#"><i class="icon-twitter"></i></a>
+                <a href="#"><i class="icon-rss"></i></a>
+            </nav>
+            
+            <nav class="sec-foot-nav column column-3">
+                <h2 class="subscribe">Korisnička podrška</h2>
+                <ul>
+                    <li><a href="#">Izjava o privatnosti</a></li>
+                    <li><a href="#">Izjava o sigurnosti</a></li>
+                    <li><a href="#">Uvjeti korištenja</a></li>
+                    <li><a href="#">Podrška</a></li>
+                </ul>
+            </nav>
+
+            <nav class="terc-foot-nav column column-2">
+                <h2 class="subscribe">O Linksu</h2>
+                <ul>
+                    <li><a href="#">Poslovnice</a></li>
+                    <li><a href="#">O nama</a></li>
+                    <li><a href="#">Kontakt</a></li>
+                </ul>
+            </nav>
+
+            <nav class="quat-foot-nav column column-2">
+                <h2 class="subscribe">Ponuda</h2>
+                <ul>
+                    <li><a href="#">Računala</a></li>
+                    <li><a href="#">Komponente</a></li>
+                    <li><a href="#">Periferija</a></li>
+                    <li><a href="#">Oprema</a></li>
+                    <li><a href="#">Mrežna oprema</a></li>
+                    <li><a href="#">Links @ Home</a></li>
+                </ul>
+            </nav>
+
+            <a href="#"><div class="drelica"><i class="icon-up"></i></div></a>
+        </div>
+
+        <div class="row">
+            <h4 class="column column-12">Links d.o.o 2001.-2016. Sva prava zadržana.</h4>
+        </div>
+    </footer>
+
+    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</body>
+</html>

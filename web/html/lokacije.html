@@ -1,0 +1,1103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>
+        Links.hr
+    </title>
+    
+    <link rel="shortcut icon" href="../img/favicon.ico">
+
+    <link rel="stylesheet" href="../style/grid.css">
+    <link rel="stylesheet" href="../style/inicijalizacija.css">
+    <link rel="stylesheet" href="../style/header.css">
+    <link rel="stylesheet" href="../style/footer.css">
+    <link rel="stylesheet" href="ikone/css/ikone.css">
+    <link href='https://fonts.googleapis.com/css?family=Monda:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="../style/racunala.css">
+    <link rel="stylesheet" href="../style/lokacije.css">
+    <link rel="stylesheet" href="../style/landing.css">
+    <link rel="stylesheet" href="../style/kosarica.css">
+    <link rel="stylesheet" href="../style/dostava.css">
+    <link rel="stylesheet" href="../style/placanje.css">
+</head>
+<body>
+    <header class="header-main">
+        <div>
+            <div class="row">
+                <nav class="nav-terc column column-2">
+                    <ul>
+                        <li><a href="#">O nama</a></li>
+                        <li><a href="#">Vijesti</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <div>
+            <div class="row">
+                <nav class="nav-sec">
+                    <a href="index.html" class="column column-3"><img src="../img/logo.svg" class="logo-main"></a>
+                    <div class="column column-7">
+                        <input type="search" placeholder="Pretraživanje" class="search-bar">
+                        <input type="submit" class="search-button" value="" id="sb">
+                        <i for="sb" class="icon-search"></i>
+                    </div>
+                    <a href="kosarica.html">
+                        <div class="kos column column-2">
+                            <i class="icon-cart"></i>
+                            <p class="kos-cijena">400,00 kn</p>
+                        </div>
+                    </a>
+                </nav>
+            </div>
+        </div>
+
+        <div>
+            <div class="row">
+                <nav class="nav-prim column column-12">
+                    <ul>
+                        <li onmouseover="document.body.className='badi';" onmouseout="document.body.className='';">
+                            <a href="#">Ponuda <i class="icon-down"></i></a>
+                            <ul>
+                                <li>
+                                    <a href="#">Računala <i class="icon-right"></i></a>
+                                    <ul>
+                                        <li><a href="#">Prijenosna računala</a></li>
+                                        <li><a href="#">Stolna računala</a></li>
+                                        <li>
+                                            <a href="#">Komponente <i class="icon-right"></i></a>
+                                            <ul>
+                                                <li><a href="#">Procesori</a></li>
+                                                <li><a href="#">Grafičke kartice</a></li>
+                                                <li><a href="#">Matične ploče</a></li>
+                                                <li><a href="#">Radna memorija</a></li>
+                                                <li><a href="#">HDD i SSD</a></li>
+                                                <li><a href="#">Napajanja</a></li>
+                                                <li><a href="#">Kučišta</a></li>
+                                                <li><a href="#">Optički pogoni</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#">Periferija <i class="icon-right"></i></a>
+                                            <ul>
+                                                <li><a href="#">Monitori i projektori</a></li>
+                                                <li><a href="#">USB stick</a></li>
+                                                <li><a href="#">Web kamere</a></li>
+                                                <li><a href="#">Miševi</a></li>
+                                                <li><a href="#">Tipkovnice</a></li>
+                                                <li><a href="#">Slušalice</a></li>
+                                                <li><a href="#">Printeri i toneri</a></li>
+                                                <li><a href="#">Mediji</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Softver</a></li>
+                                    </ul>
+                                </li>                                    
+                                <li>
+                                    <a href="#">Mrežna oprema <i class="icon-right"></i></a>
+                                    <ul>
+                                        <li><a href="#">Ruteri</a></li>
+                                        <li><a href="#">Switchevi</a></li>
+                                        <li><a href="#">Access pointovi</a></li>
+                                        <li><a href="#">WiFi pojačivaći</a></li>
+                                        <li><a href="#">Mrežne kamere</a></li>
+                                        <li><a href="#">Mrežni kablovi</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Oprema <i class="icon-right"></i></a>
+                                    <ul>
+                                        <li><a href="#">Torbe i ruksaci</a></li>
+                                        <li><a href="#">Punjači i baterije</a></li>
+                                        <li><a href="#">Oprema za čišćenje</a></li>
+                                        <li><a href="#">Modding oprema</a></li>
+                                        <li><a href="#">Kabeli i adapteri</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Links @ Home</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Akcije</a></li>
+                        <li><a href="lokacije.html">Poslovnice</a></li>
+                        <li><a href="#">Moj račun</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="nav-bread">
+        <div class="row">
+            <nav class="column column-12">
+                <ul>
+                    <li><a href="#">Početna <i class="icon-right"></i></a></li>
+                    <li><a href="#">Poslovnice</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div class="filter">
+        <div class="row">
+            <input type="checkbox" id="chk1">
+            <label class="f_toggle column column-12" for="chk1">Filter <i class="icon-down"></i></label>
+
+            <section class="opcije column column-12">
+                <h2>Gradovi:</h2>
+                <input type="checkbox" id="c1"><label for="c1">Zagreb</label>
+                <input type="checkbox" id="c2"><label for="c2">Split</label>
+                <input type="checkbox" id="c3"><label for="c3">Osijek</label>
+                <input type="checkbox" id="c4"><label for="c4">Rijeka</label>
+                <input type="checkbox" id="c5"><label for="c5">Zadar</label>
+                <input type="checkbox" id="c6"><label for="c6">Varaždin</label>
+                <input type="checkbox" id="c7"><label for="c7">Pula</label>
+                <input type="checkbox" id="c8"><label for="c8">Slavonski brod</label>
+                <input type="checkbox" id="c9"><label for="c9">Vinkovci</label>
+                <input type="checkbox" id="c10"><label for="c10">Koprivnica</label>
+
+                <input type="submit" value="Filtriraj!" id="f_gumb">
+            </section>
+        </div>
+    </div>
+
+    <main class="main-lokacije">
+        <div class="row">
+            <article class="lokacija column column-12" style="background-image: url('../img/mape/m1.png'); background-repeat: no-repeat;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1390.863884627059!2d15.951813358291082!3d45.7966813648312!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d694e4d63ac9%3A0x8c9c019c2b1bb2b0!2sGlamo%C4%8Dka+ul.+1%2C+10000%2C+Zagreb!5e0!3m2!1sen!2shr!4v1452688427053" width="370" height="370" frameborder="0" style="border:0; float:left;" allowfullscreen></iframe>
+                
+                <h1 class="column column-8">Zagreb Trešnjevka</h1>
+
+                <aside class="poslovnica column column-4">
+                    <h2>Poslovnica</h2>
+
+                    <div class="container">
+                        <div class="lijevo">
+                            <p>Adresa:</p>
+                        </div>
+                        <div class="desno">
+                            <p>Glamočka 1</p>
+                            <p>10 000 Zagreb</p>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="lijevo">
+                            <p>Radno vrijeme:</p>
+                        </div>
+                        <div class="desno">
+                            <p>Radnim danom:</p>
+                            <p>- 8:00 - 20:00</p>
+                            <p>Subota:</p>
+                            <p>- 8:00 - 15:00</p>
+                            <p>Nedjelja i praznici:</p>
+                            <p>- Ne radimo</p>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="lijevo">
+                            <p>Telefonski broj:</p>
+                        </div>
+                        <div class="desno">
+                            <p>01 3096 944</p>
+                        </div>
+                    </div>
+                </aside>
+
+                <aside class="servis column column-4">
+                    <h2>Servis</h2>
+
+                    <div class="container">
+                        <div class="lijevo">
+                            <p>Adresa:</p>
+                        </div>
+                        <div class="desno">
+                            <p>Bobovačka 2</p>
+                            <p>10 000 Zagreb</p>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="lijevo">
+                            <p>Radno vrijeme:</p>
+                        </div>
+                        <div class="desno">
+                            <p>Radnim danom:</p>
+                            <p>- 8:00 - 18:00</p>
+                            <p>Subota:</p>
+                            <p>- 8:00 - 15:00</p>
+                            <p>Nedjelja i praznici:</p>
+                            <p>- Ne radimo</p>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="lijevo">
+                            <p>Telefonski broj:</p>
+                        </div>
+                        <div class="desno">
+                            <p>01 3096 635</p>
+                        </div>
+                    </div>
+                </aside>
+            </article>
+
+            <article class="lokacija column column-12" style="background-image: url('../img/mape/m2.png'); background-repeat: no-repeat;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2780.028282618599!2d16.05327641585006!3d45.83071601693253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47667808cd170991%3A0xa86bba6af8869de2!2sDankove%C4%8Dka+ul.+5%2C+10040%2C+Zagreb!5e0!3m2!1sen!2shr!4v1452689732039" width="370" height="370" frameborder="0" style="border:0; float:left;" allowfullscreen></iframe>
+
+                <h1 class="column column-8">Zagreb Dubrava</h1>
+
+                <aside class="poslovnica column column-4">
+                    <h2>Poslovnica</h2>
+
+                    <div class="container">
+                        <div class="lijevo">
+                            <p>Adresa:</p>
+                        </div>
+                        <div class="desno">
+                            <p>Dankovečka 5</p>
+                            <p>10 040 Zagreb</p>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="lijevo">
+                            <p>Radno vrijeme:</p>
+                        </div>
+                        <div class="desno">
+                            <p>Radnim danom:</p>
+                            <p>- 8:00 - 20:00</p>
+                            <p>Subota:</p>
+                            <p>- 8:00 - 15:00</p>
+                            <p>Nedjelja i praznici:</p>
+                            <p>- Ne radimo</p>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="lijevo">
+                            <p>Telefonski broj:</p>
+                        </div>
+                        <div class="desno">
+                            <p>01 643 9111</p>
+                        </div>
+                    </div>
+                </aside>
+
+                <aside class="servis column column-4">
+                    <h2>Servis</h2>
+
+                    <div class="container">
+                        <div class="lijevo">
+                            <p>Adresa:</p>
+                        </div>
+                        <div class="desno">
+                            <p>-</p>
+                            <p>-</p>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="lijevo">
+                            <p>Radno vrijeme:</p>
+                        </div>
+                        <div class="desno">
+                            <p>Radnim danom:</p>
+                            <p>-</p>
+                            <p>Subota:</p>
+                            <p>-</p>
+                            <p>Nedjelja i praznici:</p>
+                            <p>-</p>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="lijevo">
+                            <p>Telefonski broj:</p>
+                        </div>
+                        <div class="desno">
+                            <p>-</p>
+                        </div>
+                    </div>
+                </aside>
+            </article>
+
+            <article class="lokacija column column-12" style="background-image: url('../img/mape/m3.png'); background-repeat: no-repeat;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2893.327092995042!2d16.431746415797033!3d43.516371369285224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13355de4cb95c9b9%3A0xd96aaa27e6e50c8e!2sLinks+d.o.o.!5e0!3m2!1sen!2shr!4v1452690193386" width="370" height="370" frameborder="0" style="border:0; float:left;" allowfullscreen></iframe>
+                
+                <h1 class="column column-8">Split</h1>
+
+                <aside class="poslovnica column column-4">
+                    <h2>Poslovnica</h2>
+
+                    <div class="container">
+                        <div class="lijevo">
+                            <p>Adresa:</p>
+                        </div>
+                        <div class="desno">
+                            <p>Plančićeva 2</p>
+                            <p>21 000 Split</p>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="lijevo">
+                            <p>Radno vrijeme:</p>
+                        </div>
+                        <div class="desno">
+                            <p>Radnim danom:</p>
+                            <p>- 8:00 - 20:00</p>
+                            <p>Subota:</p>
+                            <p>- 8:00 - 15:00</p>
+                            <p>Nedjelja i praznici:</p>
+                            <p>- Ne radimo</p>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="lijevo">
+                            <p>Telefonski broj:</p>
+                        </div>
+                        <div class="desno">
+                            <p>021 385 103</p>
+                        </div>
+                    </div>
+                </aside>
+
+                <aside class="servis column column-4">
+                    <h2>Servis</h2>
+
+                    <div class="container">
+                        <div class="lijevo">
+                            <p>Adresa:</p>
+                        </div>
+                        <div class="desno">
+                            <p>Plančićeva 2</p>
+                            <p>21 000 Split</p>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="lijevo">
+                            <p>Radno vrijeme:</p>
+                        </div>
+                        <div class="desno">
+                            <p>Radnim danom:</p>
+                            <p>- 8:00 - 18:00</p>
+                            <p>Subota:</p>
+                            <p>- Ne radimo</p>
+                            <p>Nedjelja i praznici:</p>
+                            <p>- Ne radimo</p>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="lijevo">
+                            <p>Telefonski broj:</p>
+                        </div>
+                        <div class="desno">
+                            <p>021 385 103</p>
+                        </div>
+                    </div>
+                </aside>
+            </article>
+
+            <article class="lokacija column column-12" style="background-image: url('../img/mape/m4.png'); background-repeat: no-repeat;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2793.778288482993!2d18.672228415843698!3d45.554785435414935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475ce7aa20a6d30b%3A0x52f2e8cbca17dc8d!2sReisnerova+Ul.+74%2C+31000%2C+Osijek!5e0!3m2!1sen!2shr!4v1452690500344" width="370" height="370" frameborder="0" style="border:0; float:left;" allowfullscreen></iframe>
+                
+                <h1 class="column column-8">Osijek</h1>
+
+                <aside class="poslovnica column column-4">
+                    <h2>Poslovnica</h2>
+
+                    <div class="container">
+                        <div class="lijevo">
+                            <p>Adresa:</p>
+                        </div>
+                        <div class="desno">
+                            <p>Reisnerova 74</p>
+                            <p>31 000 Osijek</p>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="lijevo">
+                            <p>Radno vrijeme:</p>
+                        </div>
+                        <div class="desno">
+                            <p>Radnim danom:</p>
+                            <p>- 8:00 - 20:00</p>
+                            <p>Subota:</p>
+                            <p>- 8:00 - 15:00</p>
+                            <p>Nedjelja i praznici:</p>
+                            <p>- Ne radimo</p>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="lijevo">
+                            <p>Telefonski broj:</p>
+                        </div>
+                        <div class="desno">
+                            <p>031 374 048</p>
+                        </div>
+                    </div>
+                </aside>
+
+                <aside class="servis column column-4">
+                    <h2>Servis</h2>
+
+                    <div class="container">
+                        <div class="lijevo">
+                            <p>Adresa:</p>
+                        </div>
+                        <div class="desno">
+                            <p>Reisnerova 74</p>
+                            <p>31 000 Osijek</p>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="lijevo">
+                            <p>Radno vrijeme:</p>
+                        </div>
+                        <div class="desno">
+                            <p>Radnim danom:</p>
+                            <p>- 8:00 - 18:00</p>
+                            <p>Subota:</p>
+                            <p>- Ne radimo</p>
+                            <p>Nedjelja i praznici:</p>
+                            <p>- Ne radimo</p>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="lijevo">
+                            <p>Telefonski broj:</p>
+                        </div>
+                        <div class="desno">
+                            <p>031 374 048</p>
+                        </div>
+                    </div>
+                </aside>
+            </article>
+
+            <article class="lokacija column column-12" style="background-image: url('../img/mape/m5.png'); background-repeat: no-repeat;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2805.2789651198855!2d14.464583915838189!3d45.32298895087524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4764a05312a685dd%3A0x1a873436ea486163!2sLinks+d.o.o.!5e0!3m2!1sen!2shr!4v1452690584906" width="370" height="370" frameborder="0" style="border:0; float:left;" allowfullscreen></iframe>
+                
+                <h1 class="column column-8">Rijeka</h1>
+
+                <aside class="poslovnica column column-4">
+                    <h2>Poslovnica</h2>
+
+                    <div class="container">
+                        <div class="lijevo">
+                            <p>Adresa:</p>
+                        </div>
+                        <div class="desno">
+                            <p>Kumičićeva 62A</p>
+                            <p>51 000 Rijeka</p>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="lijevo">
+                            <p>Radno vrijeme:</p>
+                        </div>
+                        <div class="desno">
+                            <p>Radnim danom:</p>
+                            <p>- 8:00 - 20:00</p>
+                            <p>Subota:</p>
+                            <p>- 8:00 - 15:00</p>
+                            <p>Nedjelja i praznici:</p>
+                            <p>- Ne radimo</p>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="lijevo">
+                            <p>Telefonski broj:</p>
+                        </div>
+                        <div class="desno">
+                            <p>051 403 777</p>
+                        </div>
+                    </div>
+                </aside>
+
+                <aside class="servis column column-4">
+                    <h2>Servis</h2>
+
+                    <div class="container">
+                        <div class="lijevo">
+                            <p>Adresa:</p>
+                        </div>
+                        <div class="desno">
+                            <p>Kumičićeva 62A</p>
+                            <p>51 000 Rijeka</p>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="lijevo">
+                            <p>Radno vrijeme:</p>
+                        </div>
+                        <div class="desno">
+                            <p>Radnim danom:</p>
+                            <p>- 8:00 - 18:00</p>
+                            <p>Subota:</p>
+                            <p>- Ne radimo</p>
+                            <p>Nedjelja i praznici:</p>
+                            <p>- Ne radimo</p>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="lijevo">
+                            <p>Telefonski broj:</p>
+                        </div>
+                        <div class="desno">
+                            <p>051 403 777</p>
+                        </div>
+                    </div>
+                </aside>
+            </article>
+
+            <article class="lokacija column column-12" style="background-image: url('../img/mape/m6.png'); background-repeat: no-repeat;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2864.3963111453327!2d15.2339037!3d44.1164471!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4761fa7a98888fd1%3A0x8b107518c2a30782!2sLinks+d.o.o.!5e0!3m2!1sen!2shr!4v1452690738531" width="370" height="370" frameborder="0" style="border:0; float:left;" allowfullscreen></iframe>
+                
+                <h1 class="column column-8">Zadar</h1>
+
+                <aside class="poslovnica column column-4">
+                    <h2>Poslovnica</h2>
+
+                    <div class="container">
+                        <div class="lijevo">
+                            <p>Adresa:</p>
+                        </div>
+                        <div class="desno">
+                            <p>Velebitska 8</p>
+                            <p>23 000 Zadar</p>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="lijevo">
+                            <p>Radno vrijeme:</p>
+                        </div>
+                        <div class="desno">
+                            <p>Radnim danom:</p>
+                            <p>- 8:00 - 20:00</p>
+                            <p>Subota:</p>
+                            <p>- 8:00 - 15:00</p>
+                            <p>Nedjelja i praznici:</p>
+                            <p>- Ne radimo</p>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="lijevo">
+                            <p>Telefonski broj:</p>
+                        </div>
+                        <div class="desno">
+                            <p>023 235 055</p>
+                        </div>
+                    </div>
+                </aside>
+
+                <aside class="servis column column-4">
+                    <h2>Servis</h2>
+
+                    <div class="container">
+                        <div class="lijevo">
+                            <p>Adresa:</p>
+                        </div>
+                        <div class="desno">
+                            <p>Velebitska 8</p>
+                            <p>23 000 Zadar</p>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="lijevo">
+                            <p>Radno vrijeme:</p>
+                        </div>
+                        <div class="desno">
+                            <p>Radnim danom:</p>
+                            <p>- 8:00 - 18:00</p>
+                            <p>Subota:</p>
+                            <p>- Ne radimo</p>
+                            <p>Nedjelja i praznici:</p>
+                            <p>- Ne radimo</p>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="lijevo">
+                            <p>Telefonski broj:</p>
+                        </div>
+                        <div class="desno">
+                            <p>023 235 055</p>
+                        </div>
+                    </div>
+                </aside>
+            </article>
+
+            <article class="lokacija column column-12" style="background-image: url('../img/mape/m7.png'); background-repeat: no-repeat;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2756.363286337994!2d16.331851015861236!3d46.30262218512701!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4768aad04f936cf7%3A0x88da09a8682ed9ad!2sStanovi+Vara%C5%BEdin!5e0!3m2!1sen!2shr!4v1452690903781" width="370" height="370" frameborder="0" style="border:0; float:left;" allowfullscreen></iframe>
+                
+                <h1 class="column column-8">Varaždin</h1>
+
+                <aside class="poslovnica column column-4">
+                    <h2>Poslovnica</h2>
+
+                    <div class="container">
+                        <div class="lijevo">
+                            <p>Adresa:</p>
+                        </div>
+                        <div class="desno">
+                            <p>Jalkovečka 1</p>
+                            <p>42 000 Varaždin</p>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="lijevo">
+                            <p>Radno vrijeme:</p>
+                        </div>
+                        <div class="desno">
+                            <p>Radnim danom:</p>
+                            <p>- 8:00 - 20:00</p>
+                            <p>Subota:</p>
+                            <p>- 8:00 - 15:00</p>
+                            <p>Nedjelja i praznici:</p>
+                            <p>- Ne radimo</p>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="lijevo">
+                            <p>Telefonski broj:</p>
+                        </div>
+                        <div class="desno">
+                            <p>042 660 088</p>
+                        </div>
+                    </div>
+                </aside>
+
+                <aside class="servis column column-4">
+                    <h2>Servis</h2>
+
+                    <div class="container">
+                        <div class="lijevo">
+                            <p>Adresa:</p>
+                        </div>
+                        <div class="desno">
+                            <p>Jalkovečka 1</p>
+                            <p>42 000 Varaždin</p>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="lijevo">
+                            <p>Radno vrijeme:</p>
+                        </div>
+                        <div class="desno">
+                            <p>Radnim danom:</p>
+                            <p>- 8:00 - 18:00</p>
+                            <p>Subota:</p>
+                            <p>- Ne radimo</p>
+                            <p>Nedjelja i praznici:</p>
+                            <p>- Ne radimo</p>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="lijevo">
+                            <p>Telefonski broj:</p>
+                        </div>
+                        <div class="desno">
+                            <p>042 660 088</p>
+                        </div>
+                    </div>
+                </aside>
+            </article>
+
+            <article class="lokacija column column-12" style="background-image: url('../img/mape/m8.png'); background-repeat: no-repeat;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2828.3230421587114!2d13.839688315827406!3d44.85571798185771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477cd315fdd3184d%3A0x6df6144bc716636a!2sVi%C5%A1ka+ul.+2%2C+52100%2C+Pula!5e0!3m2!1sen!2shr!4v1452691036710" width="370" height="370" frameborder="0" style="border:0; float:left;" allowfullscreen></iframe>
+                
+                <h1 class="column column-8">Pula</h1>
+
+                <aside class="poslovnica column column-4">
+                    <h2>Poslovnica</h2>
+
+                    <div class="container">
+                        <div class="lijevo">
+                            <p>Adresa:</p>
+                        </div>
+                        <div class="desno">
+                            <p>Viška 2a</p>
+                            <p>52 100 Pula</p>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="lijevo">
+                            <p>Radno vrijeme:</p>
+                        </div>
+                        <div class="desno">
+                            <p>Radnim danom:</p>
+                            <p>- 8:00 - 20:00</p>
+                            <p>Subota:</p>
+                            <p>- 8:00 - 15:00</p>
+                            <p>Nedjelja i praznici:</p>
+                            <p>- Ne radimo</p>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="lijevo">
+                            <p>Telefonski broj:</p>
+                        </div>
+                        <div class="desno">
+                            <p>052 638 540</p>
+                        </div>
+                    </div>
+                </aside>
+
+                <aside class="servis column column-4">
+                    <h2>Servis</h2>
+
+                    <div class="container">
+                        <div class="lijevo">
+                            <p>Adresa:</p>
+                        </div>
+                        <div class="desno">
+                            <p>Viška 2a</p>
+                            <p>52 100 Pula</p>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="lijevo">
+                            <p>Radno vrijeme:</p>
+                        </div>
+                        <div class="desno">
+                            <p>Radnim danom:</p>
+                            <p>- 8:00 - 18:00</p>
+                            <p>Subota:</p>
+                            <p>- Ne radimo</p>
+                            <p>Nedjelja i praznici:</p>
+                            <p>- Ne radimo</p>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="lijevo">
+                            <p>Telefonski broj:</p>
+                        </div>
+                        <div class="desno">
+                            <p>052 638 540</p>
+                        </div>
+                    </div>
+                </aside>
+            </article>
+
+            <article class="lokacija column column-12" style="background-image: url('../img/mape/m9.png'); background-repeat: no-repeat;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2813.623277604365!2d18.011087715834293!3d45.154227162093505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475db9ff5e440489%3A0x498f4d8ef8b1e555!2sUl.+Matije+Mesi%C4%87a+3%2C+35000%2C+Slavonski+Brod!5e0!3m2!1sen!2shr!4v1452691370554" width="370" height="370" frameborder="0" style="border:0; float:left;" allowfullscreen></iframe>
+                
+                <h1 class="column column-8">Slavonski Brod</h1>
+
+                <aside class="poslovnica column column-4">
+                    <h2>Poslovnica</h2>
+
+                    <div class="container">
+                        <div class="lijevo">
+                            <p>Adresa:</p>
+                        </div>
+                        <div class="desno">
+                            <p>Matije Mesića 3</p>
+                            <p>35 000 Slavonski Brod</p>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="lijevo">
+                            <p>Radno vrijeme:</p>
+                        </div>
+                        <div class="desno">
+                            <p>Radnim danom:</p>
+                            <p>- 8:00 - 20:00</p>
+                            <p>Subota:</p>
+                            <p>- 8:00 - 15:00</p>
+                            <p>Nedjelja i praznici:</p>
+                            <p>- Ne radimo</p>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="lijevo">
+                            <p>Telefonski broj:</p>
+                        </div>
+                        <div class="desno">
+                            <p>035 638 740</p>
+                        </div>
+                    </div>
+                </aside>
+
+                <aside class="servis column column-4">
+                    <h2>Servis</h2>
+
+                    <div class="container">
+                        <div class="lijevo">
+                            <p>Adresa:</p>
+                        </div>
+                        <div class="desno">
+                            <p>Matije Mesića 3</p>
+                            <p>35 000 Slavonski Brod</p>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="lijevo">
+                            <p>Radno vrijeme:</p>
+                        </div>
+                        <div class="desno">
+                            <p>Radnim danom:</p>
+                            <p>- 8:00 - 18:00</p>
+                            <p>Subota:</p>
+                            <p>- Ne radimo</p>
+                            <p>Nedjelja i praznici:</p>
+                            <p>- Ne radimo</p>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="lijevo">
+                            <p>Telefonski broj:</p>
+                        </div>
+                        <div class="desno">
+                            <p>035 638 740</p>
+                        </div>
+                    </div>
+                </aside>
+            </article>
+
+            <article class="lokacija column column-12" style="background-image: url('../img/mape/m10.png'); background-repeat: no-repeat;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2806.965144801314!2d18.799769115837492!3d45.288926053142056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475c8ae6d09ec79b%3A0x938abd5ae73bcfb5!2sGlagolja%C5%A1ka+ul.+7%2C+32100%2C+Vinkovci!5e0!3m2!1sen!2shr!4v1452691601311" width="370" height="370" frameborder="0" style="border:0; float:left;" allowfullscreen></iframe>
+                
+                <h1 class="column column-8">Vinkovci</h1>
+
+                <aside class="poslovnica column column-4">
+                    <h2>Poslovnica</h2>
+
+                    <div class="container">
+                        <div class="lijevo">
+                            <p>Adresa:</p>
+                        </div>
+                        <div class="desno">
+                            <p>Glagoljaška 7</p>
+                            <p>32 100 Vinkovci</p>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="lijevo">
+                            <p>Radno vrijeme:</p>
+                        </div>
+                        <div class="desno">
+                            <p>Radnim danom:</p>
+                            <p>- 8:00 - 20:00</p>
+                            <p>Subota:</p>
+                            <p>- 8:00 - 15:00</p>
+                            <p>Nedjelja i praznici:</p>
+                            <p>- Ne radimo</p>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="lijevo">
+                            <p>Telefonski broj:</p>
+                        </div>
+                        <div class="desno">
+                            <p>032 377 777</p>
+                        </div>
+                    </div>
+                </aside>
+
+                <aside class="servis column column-4">
+                    <h2>Servis</h2>
+
+                    <div class="container">
+                        <div class="lijevo">
+                            <p>Adresa:</p>
+                        </div>
+                        <div class="desno">
+                            <p>Glagoljaška 7</p>
+                            <p>32 100 Vinkovci</p>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="lijevo">
+                            <p>Radno vrijeme:</p>
+                        </div>
+                        <div class="desno">
+                            <p>Radnim danom:</p>
+                            <p>- 8:00 - 18:00</p>
+                            <p>Subota:</p>
+                            <p>- Ne radimo</p>
+                            <p>Nedjelja i praznici:</p>
+                            <p>- Ne radimo</p>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="lijevo">
+                            <p>Telefonski broj:</p>
+                        </div>
+                        <div class="desno">
+                            <p>032 377 777</p>
+                        </div>
+                    </div>
+                </aside>
+            </article>
+
+            <article class="lokacija column column-12" style="background-image: url('../img/mape/m11.png'); background-repeat: no-repeat;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1390.863884627059!2d15.951813358291082!3d45.7966813648312!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d694e4d63ac9%3A0x8c9c019c2b1bb2b0!2sGlamo%C4%8Dka+ul.+1%2C+10000%2C+Zagreb!5e0!3m2!1sen!2shr!4v1452688427053" width="370" height="370" frameborder="0" style="border:0; float:left;" allowfullscreen></iframe>
+                
+                <h1 class="column column-8">Koprivnica</h1>
+
+                <aside class="poslovnica column column-4">
+                    <h2>Poslovnica</h2>
+
+                    <div class="container">
+                        <div class="lijevo">
+                            <p>Adresa:</p>
+                        </div>
+                        <div class="desno">
+                            <p>Florijanski trg 10</p>
+                            <p>48 000 Koprivnica</p>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="lijevo">
+                            <p>Radno vrijeme:</p>
+                        </div>
+                        <div class="desno">
+                            <p>Radnim danom:</p>
+                            <p>- 9:00 - 13:00</p>
+                            <p>- 16:00 - 19:00</p>
+                            <p>Subota:</p>
+                            <p>- 8:00 - 13:00</p>
+                            <p>Nedjelja i praznici:</p>
+                            <p>- Ne radimo</p>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="lijevo">
+                            <p>Telefonski broj:</p>
+                        </div>
+                        <div class="desno">
+                            <p>048 626 888</p>
+                        </div>
+                    </div>
+                </aside>
+
+                <aside class="servis column column-4">
+                    <h2>Servis</h2>
+
+                    <div class="container">
+                        <div class="lijevo">
+                            <p>Adresa:</p>
+                        </div>
+                        <div class="desno">
+                            <p>-</p>
+                            <p>-</p>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="lijevo">
+                            <p>Radno vrijeme:</p>
+                        </div>
+                        <div class="desno">
+                            <p>Radnim danom:</p>
+                            <p>-</p>
+                            <p>Subota:</p>
+                            <p>-</p>
+                            <p>Nedjelja i praznici:</p>
+                            <p>-</p>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="lijevo">
+                            <p>Telefonski broj:</p>
+                        </div>
+                        <div class="desno">
+                            <p>-</p>
+                        </div>
+                    </div>
+                </aside>
+            </article>
+        </div>
+    </main>
+
+        <footer class="footer-main">
+        <div class="row">
+            <nav class="prim-foot-nav column column-5">
+                <h2 class="subscribe">Primajte naše obvijesti!</h2>
+                <a href="#"><i class="icon-mail"></i></a>
+                <a href="#"><i class="icon-fb"></i></a>
+                <a href="#"><i class="icon-twitter"></i></a>
+                <a href="#"><i class="icon-rss"></i></a>
+            </nav>
+            
+            <nav class="sec-foot-nav column column-3">
+                <h2 class="subscribe">Korisnička podrška</h2>
+                <ul>
+                    <li><a href="#">Izjava o privatnosti</a></li>
+                    <li><a href="#">Izjava o sigurnosti</a></li>
+                    <li><a href="#">Uvjeti korištenja</a></li>
+                    <li><a href="#">Podrška</a></li>
+                </ul>
+            </nav>
+
+            <nav class="terc-foot-nav column column-2">
+                <h2 class="subscribe">O Linksu</h2>
+                <ul>
+                    <li><a href="#">Poslovnice</a></li>
+                    <li><a href="#">O nama</a></li>
+                    <li><a href="#">Kontakt</a></li>
+                </ul>
+            </nav>
+
+            <nav class="quat-foot-nav column column-2">
+                <h2 class="subscribe">Ponuda</h2>
+                <ul>
+                    <li><a href="#">Računala</a></li>
+                    <li><a href="#">Komponente</a></li>
+                    <li><a href="#">Periferija</a></li>
+                    <li><a href="#">Oprema</a></li>
+                    <li><a href="#">Mrežna oprema</a></li>
+                    <li><a href="#">Links @ Home</a></li>
+                </ul>
+            </nav>
+
+            <a href="#"><div class="drelica"><i class="icon-up"></i></div></a>
+        </div>
+
+        <div class="row">
+            <h4 class="column column-12">Links d.o.o 2001.-2016. Sva prava zadržana.</h4>
+        </div>
+    </footer>
+
+    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</body>
+</html>

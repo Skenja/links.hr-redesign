@@ -1,0 +1,226 @@
+.placanje-main{
+	background: #0092c2;
+}
+
+.kos-naslov{
+	background: #006c85;
+	padding: 30px;
+	margin-bottom: 280px;
+}
+
+.placanje-main > .kos-naslov > div > h1 > a{
+	font-size: 2.5em;
+	font-weight: normal;
+	text-align: center;
+	display: block;
+}
+
+.placanje-main > .kos-naslov > div > h1:nth-child(3) > a{
+	color: white;
+}
+
+.placanje-main > .kos-naslov > div > h1:nth-child(1) > a, 
+.placanje-main > .kos-naslov > div > h1:nth-child(2) > a{
+	color: #999;
+}
+
+.placanje-main .obavjest{
+	margin-top: -230px;
+}
+
+.placanje-main > div > p{
+	color: white;
+	font-size: 1.6em;
+	display: block;
+	padding: 30px;
+	background: #333;
+	position: relative;
+}
+
+.placanje-main > input{
+	display: none;
+}
+
+.placanje-main > .obavjest > label > i{
+	color: white;
+	position: absolute;
+	right: 20px;
+	font-size: 2.5em;
+	cursor: pointer;
+}
+
+.placanje-main > input:checked ~ .kos-naslov{
+	margin-bottom: 30px;
+	transition: 300ms 300ms;
+}
+
+.placanje-main > input:checked ~ .obavjest{
+	opacity: 0;
+	visibility: hidden;
+	transition: 300ms;
+}
+
+.placanje-adresa{
+	padding: 15px 0;
+	margin: 60px 0;
+	color: white;
+}
+
+.placanje-adresa h1{
+	font-size: 2.5em;
+	font-weight: normal;
+	padding: 15px 0;
+	display: inline-block;
+	width: 370px;
+	margin-left: 415px;
+}
+
+.placanje-adresa label{
+	color: white;
+	display: block;
+	font-size: 1.6em;
+	margin: 30px 15px;
+	width: 370px;
+	text-align: right;
+	float: left;
+}
+
+.placanje-adresa input{
+	width: 570px;
+	float: left;
+	margin: 25px 15px;
+	display: block;
+	font-size: 1.6em;
+	padding: 5px;
+}
+
+#chck_pod, #chck_pod1{
+	display: none;
+}
+
+#specijalni_label{
+	width: 1000px;
+	display: block;
+	text-align: left;
+	padding-left: 400px;
+	background-image: url('../img/checkbox.svg');
+	background-repeat: no-repeat;
+	background-position: 345px center;
+}
+
+#chck_pod:checked + #specijalni_label{
+	background-image: url('../img/checkbox1.svg');
+	display: block;
+}
+
+#chck_pod1:checked + #specijalni_label{
+	background-image: url('../img/checkbox1.svg');
+	display: block;
+}
+
+#chck_pod:checked ~ div:first-of-type{
+    display: none;
+}
+
+#chck_pod1:checked ~ div{
+    display: none;
+}
+
+.dost-suma{
+	background: #006c85;
+	padding: 60px 0;
+	margin-top: 30px;
+}
+
+.dostsumarum details{
+	width: 100%;
+	text-align: center;
+}
+
+.dostsumarum details h1{
+	color: white;
+	display: inline-block;
+	font-size: 2em;
+	font-weight: normal;
+	margin: 30px 5px;
+	width: 570px;
+	text-align: right;
+	float: left;
+}
+
+.dostsumarum details p{
+	color: white;
+	font-size: 2.5em;
+	width: 370px;
+	margin-left: 20px;
+	margin-top: 23px;
+	text-align: left;
+	float: left;
+	display: inline-block;
+}
+
+.dost-suma input{
+	margin-right: 70px;
+	font-size: 1.5em;
+	padding: 5px 20px;
+	margin: 45px 15px 15px 15px;
+	background: #efefef;
+}
+
+.dost-suma input:nth-child(1){
+	float: left;
+}
+
+.dost-suma input:nth-child(2){
+	float: right;
+}
+
+.dost-suma input:hover{
+	background: #0092c2;
+	color: white;
+}
+
+.hide{
+	display: none;
+}
+
+.show{
+	display: block;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: #006c85;
+	color: white;
+	text-align: center;
+	padding: 25vh 20vw 20vh 20vw;
+	font-size: 3em;
+	z-index: 5000;
+}
+
+#chck_suc{
+	display: none;
+}
+
+#chck_suc:checked + #uspeh{
+	display: none;
+}
+
+#uspeh label{
+	position: absolute;
+	bottom: 25vh;
+	left: 42vw;
+	font-size: 1em;
+	display: block;
+	padding: 15px;
+	width: 300px;
+	background: #0092c2;
+	color: white;
+}
+
+#uspeh label:hover{
+	
+	background: #cfcfcf;
+	color: black;
+}

@@ -1,0 +1,308 @@
+.header-main{
+    background: #efefef;
+	position: relative;
+	z-index: 5;
+}
+
+.header-main a{
+	color: white;
+}
+
+.header-main > div{
+	width: 100%;
+}
+
+.header-main > div:nth-child(1){
+	background-color: #006c85;
+	padding: 5px 0;
+}
+
+.header-main > div:nth-child(2){
+	padding: 30px 0;
+}
+
+.header-main > div:nth-child(3){
+	background-color: #0092c2;
+}
+
+/* tercijarna navigacija */
+
+.nav-terc{
+	float: right;
+	position: relative;
+}
+
+.nav-terc li{
+	float: right;
+	margin-left: 10px;
+}
+
+.nav-terc a{
+	font-size: 1em;
+	text-decoration: underline;
+}
+
+/* sekundarna navigacija */
+
+.nav-sec *{
+	float:left;
+	position: relative;
+}
+
+.logo-main{
+	width: 270px;
+}
+
+.nav-sec div{
+	position: relative;
+}
+
+.search-bar{
+	width: 600px;
+	color: black;
+	padding-left: 15px;
+	font-size: 1.2em;
+	min-height: 70px;
+}
+
+.search-button{
+	width: 70px;
+	background: none;
+	min-height: 70px;
+}
+
+.nav-sec .icon-search{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	color: white;
+	font-size: 2em;
+	padding: 10px 15px;
+	background: #006c85;
+}
+
+.search-button:hover + .icon-search{
+	background: #0092c2 ; 
+}
+
+.kos{
+	color: black;
+	min-height: 70px;
+	line-height: 1;
+}
+
+.kos i{
+	width: 100%;
+	font-size: 3em;
+	color: #0092c2;
+	text-align: center;
+}
+
+.kos .kos-cijena{
+	width: 100%;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+/* primarna navigacija */
+
+.nav-prim{
+	font-size: 1em;
+	position: relative;
+}
+
+.nav-prim > ul{
+	position: relative;
+}
+
+.nav-prim > ul > li{
+	position: relative;
+}
+
+.nav-prim > ul > li > a{
+	position: relative;
+}
+
+.nav-prim > ul > li:first-child{
+	background: #006c85;
+	color: white;
+}
+
+.nav-prim > ul > li > a{
+	display: block;
+	width: 292.5px;
+	text-align: center;
+	font-size: 1.8em;
+	padding: 10px 0;
+}
+
+.nav-prim i{
+	font-size: 1em;
+}
+
+.nav-prim > ul > li > ul{
+	width: 292.5px;
+	background: #0092c2;
+	position: absolute;
+}
+
+.nav-prim > ul > li:hover > a{
+	background: #0092c2;
+}
+
+.nav-prim > ul > li:hover > ul{
+	display: block;
+	visibility: visible;
+	opacity: 1;
+}
+
+.nav-prim > ul > li > ul > li{
+	position: static;
+}
+
+.nav-prim > ul > li > ul > li > a{
+	width: 292.5px;
+	font-size: 1.4em;
+	padding: 20px;
+}
+
+.nav-prim > ul > li > ul > li:hover > a{
+	background: #007fa3;
+}
+
+.nav-prim > ul > li > ul > li:hover > ul{
+	display: block;
+	visibility: visible;
+	opacity: 1;
+	width: 292.5px;
+	right: -292.5px;
+	top: 0;
+	background: #007fa3;
+}
+
+.nav-prim > ul > li > ul > li > ul > li{
+	position: static;
+}
+
+.nav-prim > ul > li > ul > li > ul > li > a{
+	width: 292.5px;
+	font-size: 1.4em;
+	padding: 20px;
+}
+
+.nav-prim > ul > li > ul > li > ul > li:hover > ul{
+	display: block;
+	visibility: visible;
+	opacity: 1;
+	width: 292.5px;
+	right: -292.5px;
+	top: 0;
+	background: #006c85;
+}
+
+.nav-prim > ul > li > ul > li > ul > li:hover > a{
+	background: #006c85;
+}
+
+.nav-prim > ul > li > ul > li > ul > li > ul > li > a{
+	width: 292.5px;
+	font-size: 1.4em;
+	padding: 20px;
+}
+
+.nav-prim > ul > li > ul > li > ul > li > ul > li:hover > a{
+	background: #005967;
+}
+
+/* breadcrumbs */
+.header-main:hover ~ .nav-bread{
+	z-index: -2;
+}
+
+.nav-bread{
+	background: #efefef;
+	position: relative;
+}
+
+.nav-bread a{
+	padding: 5px 30px 5px 0;
+	color: black;
+	font-size: 1.2em;
+}
+
+.nav-bread a:hover{
+	color: #0092c2;
+}
+
+/* filter */
+.header-main:hover ~ .filter{
+	z-index: -2;
+}
+
+.filter{
+	background: #006c85;
+	color: white;
+	position: relative;
+}
+
+#chk1{
+	display: none;
+}
+
+.f_toggle{
+	padding: 5px 30px 5px 0;
+	font-size: 1.2em;
+}
+
+.opcije{
+	display: none;
+}
+
+#chk1:checked ~ .opcije{
+	display: block;
+}
+
+.opcije{
+	margin-top: 15px;
+}
+
+.opcije h2{
+	width: 100%;
+	font-size: 1.2em;
+	font-weight: normal;
+}
+
+.opcije input{
+	display: none;
+}
+
+.opcije label{
+	width: 170px;
+	float: left;
+	padding: 5px 0 5px 30px;
+	margin: 5px 10px;
+	font-size: 1.2em;
+	background-image: url('../img/checkbox.svg');
+	background-repeat: no-repeat;
+	background-position: center left;
+}
+
+.opcije input:checked + label{
+	background-image: url('../img/checkbox1.svg');
+}
+
+#f_gumb{
+	float: right;
+	display: block;
+	width: 170px;
+	padding: 5px 0;
+	background: #0092c2;
+	color: white;
+	font-size: 1.2em;
+	margin: 60px 40px 15px 0;
+}
+
+#f_gumb:hover{
+	background: #efefef;
+	color: black;
+}
